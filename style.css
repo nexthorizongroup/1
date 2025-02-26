@@ -380,8 +380,8 @@ footer p {
 
 @media (max-width: 600px) {
     footer p {
-        padding: 10px 15px;
-        width: 90%;
+        padding: 100px 150px;
+        width: 900%;
         margin: 0 auto;
     }
 }
