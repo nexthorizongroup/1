@@ -232,12 +232,6 @@ nav .nav-links {
     font-family: 'Cairo', sans-serif;
 }
 
-.contact-buttons {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
 .contact-button {
     display: inline-flex;
     align-items: center;
@@ -265,6 +259,14 @@ nav .nav-links {
     background-color: #1da247;
 }
 
+.instagram {
+    background-color: #E1306C;
+}
+
+.instagram:hover {
+    background-color: #920f3a;
+}
+
 .st {
     width: 24px;
     height: 24px;
@@ -287,19 +289,6 @@ nav .nav-links {
     font-style: normal;
     font-size: 25px;
     color: #e3a780;
-}
-
-footer p {
-    text-align: center;
-    margin-top: 20px;
-
-    padding: 15px 30px;
-    background-color: #6e473b;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
 }
 
 .info {
@@ -369,4 +358,30 @@ footer p {
 
 .eng p {
     font-size: 18px;
+}
+
+footer {
+    background-color: #6e473b;
+}
+
+footer:hover {
+    background-color: #852e13;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    footer p {
+        padding: 10px 15px;
+        width: 90%;
+        margin: 0 auto;
+    }
 }
