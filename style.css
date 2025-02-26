@@ -30,7 +30,7 @@ header {
     width: 100%;
     padding: 25px 5%;
     border-color: var(--background-color);
-    box-shadow: 0 4px 8px var(--background-color);
+    box-shadow: 0 4px 8px var(--box-shadow-color);
 }
 
 nav {
@@ -139,7 +139,7 @@ nav .nav-links {
     background: #792daf;
     border: none;
     border-radius: 45px;
-    box-shadow: 0 5px 15px #f195c3;
+    box-shadow: 0 5px 15px rgba(121, 45, 175, 0.3);
     color: #fff;
     text-decoration: none;
     font-weight: 500;
@@ -147,7 +147,7 @@ nav .nav-links {
 
 .btn:hover {
     background: #f195c3;
-    box-shadow: 0 5px 15px #f195c3;
+    box-shadow: 0 5px 15px rgba(241, 149, 195, 0.5);
 }
 
 .homee-img {
@@ -179,14 +179,9 @@ nav .nav-links {
     margin-left: 5px;
 }
 
-.Text-all {
+.Text-title {
     color: #cc9a91;
 }
-
-.Text-title {
-    color: #511126;
-}
-
 
 .ky-jpg {
     border-radius: 50%;
@@ -278,17 +273,11 @@ nav .nav-links {
     text-align: center;
 }
 
-.tt {
-    color: #70564a;
-}
-
 .texe-Contact {
     font-family: Arial, Helvetica, sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
+    font-weight: normal;
     font-size: 25px;
-    color: #e3a780;
+    color: #cc9a91;
 }
 
 .info {
@@ -299,14 +288,7 @@ nav .nav-links {
 .info h1, p {
     font-size: 25px;
     font-family: 'Cairo', sans-serif;
-}
-
-.info h1 {
-    color: #1b1931;
-}
-
-.info p {
-    color: #44174e;
+    color: #cc9a91;
 }
 
 .twsl {
@@ -317,16 +299,8 @@ nav .nav-links {
 .twsl h1, p {
     font-size: 25px;
     font-family: 'Cairo', sans-serif;
+    color: #cc9a91;
 }
-
-.twsl h1 {
-    color: #110000;
-}
-
-.twsl p {
-    color: #2e1e08;
-}
-
 
 .flexxxx {
     display: flex;
@@ -334,6 +308,7 @@ nav .nav-links {
     margin: 10px;
     font-family: 'Cairo', sans-serif;
     font-size: 18px;
+    color: #cc9a91;
 }
 
 .flex-left, .flex-right {
@@ -342,18 +317,11 @@ nav .nav-links {
     box-sizing: border-box;
 }
 
-.flex-left {
-    background-color: white;
-}
-
-.flex-right {
-    background-color: white;
-}
-
 .eng {
     margin-top: 25px;
     text-align: center;
     font-family: 'Cairo', sans-serif;
+    color: #cc9a91;
 }
 
 .eng p {
@@ -380,8 +348,8 @@ footer p {
 
 @media (max-width: 600px) {
     footer p {
-        padding: 100px 150px;
-        width: 900%;
+        padding: 10px 15px;
+        width: 90%;
         margin: 0 auto;
     }
 }
